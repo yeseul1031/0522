@@ -1,0 +1,26 @@
+{
+  "name": "async-and-promise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "sinon": "^9.0.3",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "test:part-2": "jest --runInBand part-2/__test__/**.test.js",
+    "server:part-3": "node part-3/__test__/app.js",
+    "report": "jest --runInBand part-2/__test__/**.test.js --json --outputFile=report.jest.json"
+  },
+  "jest": {
+    "testSequencer": "./testSequencer.js",
+    "testTimeout": 2000
+  },
+  "author": "Insu-Lee",
+  "license": "ISC"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "AliceKim",
+  "age": 26,
+  "sex": "FeMale",
+  "company": {
+    "name": "로켓부스트"
+  }
+}
