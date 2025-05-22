@@ -4,9 +4,9 @@ const getDataFromFilePromise = filePath => {
   return new Promise((resolve, reject) => {
     fs.readFile(filePath, "utf8", (err, data) => {
       if (err) {
-        reject(err); // 에러 발생 시 reject
+        reject(err); 
       } else {
-        resolve(data); // 성공 시 resolve
+        resolve(data); 
       }
     });
   });

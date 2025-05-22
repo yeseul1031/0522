@@ -11,8 +11,8 @@ const readAllUsers = () => {
     getDataFromFilePromise(user2Path)
   ]).then(([user1Data, user2Data]) => {
     return [
-      JSON.parse(user1Data), // 첫 번째 유저 파싱
-      JSON.parse(user2Data)  // 두 번째 유저 파싱
+      JSON.parse(user1Data), 
+      JSON.parse(user2Data) 
     ];
   });
 };
